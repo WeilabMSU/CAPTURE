@@ -15,16 +15,16 @@ CAPTURE (direCted flAg laPlacian Transformer for drUg Resistance prEdictions)
 
 ## Table of Contents
 
-- [CAPTURE](#CAPTURE)
+- [CAPTURE](#capture)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
-  - [Overall framework](#model-architecture)
+  - [Overall framework](#overall-framework)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
   - [Datasets](#datasets)
   - [Usage](#usage)
-    - [Preparing Path Laplacian Sequence](#preparing-path-laplacian-sequence)
+    - [Preparing Directed Flag Laplacian Sequence](#preparing-directed-flag-laplacian-sequence)
     - [Fine-Tuning Procedure for Customized Data](#fine-tuning-procedure-for-customized-data)
   - [Results](#results)
       - [Pretrained models](#pretrained-models)
@@ -157,7 +157,7 @@ CUDA_VISIBLE_DEVICES=1 python $fintuning_python_script --hidden_dropout_prob 0.1
 ## Citation
 
 If you use this code or the pre-trained models in your work, please cite our work.
-- Chen, Dong, Gengzhuo Liu, Hongyan Du, Junjie Wee, Rui Wang, Jiahui Chen, Jana Shen, and Guo-Wei Wei. "Drug Resistance Predictions Based on a Directed Flag Transformer" ArXiv (2024). https://arxiv.org/html/2403.02603v1
+- Chen, Dong, Gengzhuo Liu, Hongyan Du, Benjamin Jones, Junjie Wee, Rui Wang, Jiahui Chen, Jana Shen, and Guo‐Wei Wei. "Drug resistance predictions based on a directed flag transformer." Advanced Science 12, no. 36 (2025): e02756. https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202502756
 
 ---
 
