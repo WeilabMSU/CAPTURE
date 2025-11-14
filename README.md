@@ -127,6 +127,7 @@ CUDA_VISIBLE_DEVICES=1 python $fintuning_python_script --hidden_dropout_prob 0.1
 
 #### Pretrained models
 - Pretrained DFFormer model. [Download](https://weilab.math.msu.edu/Downloads/CAPTURE/pretrained_dfformer.zip)
+- Finetuned DFFormer model (Finetuned by PDBbind v2020, with three 3 random seeds). [Download](https://weilab.math.msu.edu/Downloads/CAPTURE/fintuned_by_v2020_models_012.zip)
 
 #### Finetuned models and performances
 
